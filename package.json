@@ -1,7 +1,7 @@
 {
   "name": "wax-endpoint",
   "version": "1.0.0",
-  "description": "Test rpc and atomic endpoints on the WAX ​​blockchain..",
+  "description": "Test rpc and atomic endpoints on the WAX ​​blockchain.",
   "bin": "lib/script.js",
   "types": "lib/index.d.ts",
   "scripts": {
