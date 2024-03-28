@@ -1,7 +1,7 @@
 {
-  "name": "change-project-name",
+  "name": "wax-endpoint",
   "version": "1.0.2",
-  "description": "change-description.",
+  "description": "Test rpc and atomic endpoints on the WAX ​​blockchain..",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
@@ -26,25 +26,29 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/change-autor/change-project-name.git"
+    "url": "git+https://github.com/wesleyara/wax-endpoint.git"
   },
   "keywords": [
     "typescript",
     "javascript"
   ],
-  "author": "change-autor",
+  "author": "wesleyara",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/change-autor/change-project-name/issues"
+    "url": "https://github.com/wesleyara/wax-endpoint/issues"
   },
-  "homepage": "https://github.com/change-autor/change-project-name#readme",
+  "homepage": "https://github.com/wesleyara/wax-endpoint#readme",
   "dependencies": {
     "axios": "^1.2.0",
+    "cross-fetch": "^4.0.0",
+    "eosjs": "^22.1.0",
+    "inquirer": "8.0.0",
     "rimraf": "^3.0.2"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.3.0",
     "@commitlint/config-conventional": "^17.1.0",
+    "@types/inquirer": "8.1.0",
     "@types/node": "^18.11.9",
     "@typescript-eslint/eslint-plugin": "^5.45.0",
     "@typescript-eslint/parser": "^5.45.0",
